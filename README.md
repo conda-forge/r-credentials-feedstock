@@ -1,11 +1,11 @@
-About r-credentials
-===================
+About r-credentials-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-credentials-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.ropensci.org/credentials (website) https://github.com/r-lib/credentials
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-credentials-feedstock/blob/main/LICENSE.txt)
 
 Summary: Setup and retrieve HTTPS and SSH credentials for use with 'git' and other services. For HTTPS remotes the package interfaces the 'git-credential' utility which 'git' uses to store HTTP usernames and passwords. For SSH remotes we provide convenient functions to find or generate appropriate SSH keys. The package both helps the user to setup a local git installation, and also provides a back-end for git/ssh client libraries to authenticate with existing user credentials.
 
