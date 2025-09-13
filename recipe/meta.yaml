@@ -1,4 +1,4 @@
-{% set version = "2.0.2" %}
+{% set version = "2.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/credentials_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/credentials/credentials_{{ version }}.tar.gz
-  sha256: 496bd78832b93cd3ee4aef3719aa3cd4ce337e82a74084f22022466e4d5b5d0a
+  sha256: 140043804b4cfcb5e174af3a188ce4cd1e17f7f6aeb777bbd4da21f6c73e013c
 
 build:
   number: 0
